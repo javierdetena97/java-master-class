@@ -14,7 +14,6 @@ public class Main {
         NoShape noShape = new NoShape();
 
         List<Shape> shapes = List.of(
-                noShape,
                 circle,
                 square,
                 cube,
