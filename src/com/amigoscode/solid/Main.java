@@ -11,8 +11,10 @@ public class Main {
         Square square = new Square(10);
         Cube cube = new Cube();
         Rectangle rectangle = new Rectangle();
+        NoShape noShape = new NoShape();
 
         List<Shape> shapes = List.of(
+                noShape,
                 circle,
                 square,
                 cube,
