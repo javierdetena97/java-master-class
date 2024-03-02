@@ -2,7 +2,7 @@ package com.amigoscode.solid;
 
 import java.util.List;
 
-public class AreaCalculator implements AreaCalculatorI {
+public class AreaCalculatorV2 implements AreaCalculatorI {
 
     @Override
     public int sum(List<Shape> shapes) {
